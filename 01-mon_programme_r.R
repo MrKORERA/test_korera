@@ -1,4 +1,4 @@
 library(tidyverse)
 
-data=cars |> 
-  print()
+data=mtcars |>
+  view()
