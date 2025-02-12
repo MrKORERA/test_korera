@@ -1,4 +1,3 @@
 library(tidyverse)
 
-data=mtcars |>
-  view()
+data=mtcars
