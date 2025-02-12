@@ -1,3 +1,4 @@
 library(tidyverse)
 
-data=mtcars
+data <- mtcars |> 
+  mutate(modele_voiture = row.names(mtcars))
