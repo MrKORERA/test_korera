@@ -1,5 +1,4 @@
 library(tidyverse)
 
-
 data=cars |> 
-  view()
+  print()
